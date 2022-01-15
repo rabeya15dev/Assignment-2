@@ -92,8 +92,19 @@ popular collection
 }
 
 
-.courses{
+.Popular-Collection{
   display: grid;
-  grid-template-columns: repeat();
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  border-radius: 13px;
+  margin-left: 16%;
+  margin-top: 1%;
 }
 
+.fa-star.filled{
+  color: #FFC014;
+}
+.fa-star.empty{
+  color: #AEAEAE;
+}
