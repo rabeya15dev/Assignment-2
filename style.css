@@ -1,14 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@400;500&family=Roboto+Mono:wght@300&family=Roboto+Slab&family=Roboto:ital@1&display=swap);
 
+body{
+  font-family: 'Poppins', sans-serif;;
+}
 
  /* Navbar */
-
 .heading{
   color: #3A3A3A;
   margin-left: 75px;
 
 }
-nav{
-  display: flex;
+nav
+{
+   display: flex; 
   justify-content: space-around;
   margin-top: 20px;
 }
@@ -19,30 +23,40 @@ nav a  {
   margin-right: 15px;
 }
 
-/* Middle section */
-.text-align{
-  text-align: center;
-  font-size: 50%;
-}
+
+/* influender */
 section{
   display: flex;
+} 
+
+.main-camera {
+      width: 100px;
+      height: 100px;
+      transition:  width 5s transform 6s;
+     
+}
+.main-camera:hover{
+      width: 200px;
+      height: 200px;
+      transform: rotate(90deg);
+}
+
+
+
+
+.section-title{
+  text-align: center;
 }
 .influender{
-   
     background-color: #FFFFFF;
     color: #3A3A3A;
     width: 50%;
   padding-left: 5%;
   padding-top: 5%;
 }
-.main-camera{
-    width: 30%;
-   
 
-}
 .text-center{
   text-align: justify;
-  padding: 2%;
 }
 .link-button{
   text-decoration: none;
@@ -53,8 +67,33 @@ section{
   border-radius: 16px;
 }
 
-/* LOgo section */
-.logo{
+/* logo section */
+
+
+section  .logo{
   text-align: center;
-  justify-content: space-between;
+  margin-left:380px ;
+  margin-right: 220px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  word-spacing: 15px;
 }
+/* ------------
+popular collection
+--------------- */
+.section-title{
+  color: #3A3A3A;
+  font-size: 24px;
+  margin-top: 3px;
+  text-align: center;
+  margin-left:650px ;
+  margin-right: 300px;
+  text-decoration: black;
+}
+
+
+.courses{
+  display: grid;
+  grid-template-columns: repeat();
+}
+
