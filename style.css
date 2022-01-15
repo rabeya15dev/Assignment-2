@@ -200,3 +200,53 @@ span.psw {
  .icon .fa-instagram empty{
   color: #FFFFFF;
 }
+
+
+
+/* Media queries */
+
+
+
+/* Mobile Device */
+
+@media Only screen and (max-width:688px) {
+  
+  .container{
+    width: 100%;
+  }
+  .Popular-Collection, .logo, .form, .courses{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .Popular-Collection,.logo, .form, .courses{
+    flex-direction: column;
+  }
+}
+
+/* Tablet Devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+  .container{
+    width: 100%;
+  }
+  .Popular-Collection,.logo, .form, .courses{
+    grid-template-columns: repeat(2,1fr);
+  }
+  courses{
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+}
+
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
